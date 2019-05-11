@@ -108,3 +108,29 @@ table tr td {
 span {
 	font-weight: normal;
 }
+
+.progressContainer {
+	margin-top: 10px;
+	width: 100px;
+	height: 27.33px;
+	padding: 0;
+	border-radius: 100px;
+	border: none;
+	background-color: #d8d8d8;
+}
+
+.progressSD {
+	width: 8%;
+	height: 100%;
+	border-radius: 100px;
+	border: none;
+	background-color: #0ac40a;
+}
+
+.progressHD {
+	width: 1%;
+	height: 100%;
+	border-radius: 100px;
+	border: none;
+	background-color: #0ac40a;
+}
