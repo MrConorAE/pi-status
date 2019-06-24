@@ -1,145 +1,181 @@
 body {
-  font-family: "Quicksand";
-  text-align: center;
+	font-family: "Quicksand";
+	text-align: center;
 }
 
 .bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 h1 {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .ok {
-  background-color: #0ac40a;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: white;
-  transition-duration: 0.3s;
+	background-color: #0ac40a;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
 }
 
 .ok:hover {
-  background-color: #bbffbb;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: #0ac40a;
+	background-color: #bbffbb;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #0ac40a;
 }
 
 .warn {
-  background-color: #f29d15;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: white;
-  transition-duration: 0.3s;
+	background-color: #f29d15;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
 }
 
 .warn:hover {
-  background-color: #ffe6bf;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: #f29d15;
-  transition-duration: 0.3s;
+	background-color: #ffe6bf;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #f29d15;
+	transition-duration: 0.3s;
 }
 
 .err {
-  background-color: #ea1414;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: white;
-  transition-duration: 0.3s;
+	background-color: #ea1414;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
 }
 
 .err:hover {
-  background-color: #ffcccc;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: #ea1414;
-  transition-duration: 0.3s;
+	background-color: #ffcccc;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #ea1414;
+	transition-duration: 0.3s;
 }
 
 .off {
-  background-color: #7c7c7c;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: white;
-  transition-duration: 0.3s;
+	background-color: #7c7c7c;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
 }
 
 .off:hover {
-  background-color: #e6e6e6;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: #7c7c7c;
-  transition-duration: 0.3s;
+	background-color: #e6e6e6;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #7c7c7c;
+	transition-duration: 0.3s;
 }
 
 button {
-  background-color: #0091eb;
-  font-family: "Quicksand";
-  font-size: 18.72px;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: white;
-  transition-duration: 0.3s;
-  border: none;
+	background-color: #0091eb;
+	font-family: "Quicksand";
+	font-size: 18.72px;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
+	border: none;
 }
 
 button:hover {
-  background-color: #a3dcff;
-  padding: 2px 10px;
-  border-radius: 100px;
-  color: #0091eb;
-  transition-duration: 0.3s;
+	background-color: #a3dcff;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #0091eb;
+	transition-duration: 0.3s;
 }
 
 .left {
-  text-align: right;
+	text-align: right;
 }
 
 .right {
-  text-align: left;
+	text-align: left;
 }
 
 table tr td {
-  width: 50vw;
+	width: 50vw;
 }
 
 h3 {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 span {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 .progressContainer {
-  width: 100px;
-  margin-top: 10px;
-  box-sizing: border-box;
-  height: 27.33px;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 100px;
-  border: none;
-  background-color: #d8d8d8;
+	width: 100px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	height: 27.33px;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 100px;
+	border: none;
+	background-color: #d8d8d8;
 }
 
 .progressSD {
-  margin: 0;
-  width: 31%;
-  margin-top: -24.5px;
-  height: 27.33px;
-  border: none;
-  background-color: #0ac40a;
+	margin: 0;
+	width: 9%;
+	margin-top: -24.5px;
+	height: 27.33px;
+	border: none;
+	background-color: #0ac40a;
+	transition-duration: 0.3s;
 }
 
 .progressHD {
-  margin: 0;
-  width: 7%;
-  margin-top: -24.5px;
-  height: 27.32px;
-  border: none;
-  background-color: #0ac40a;
+	margin: 0;
+	width: 7%;
+	margin-top: -24.5px;
+	height: 27.32px;
+	border: none;
+	background-color: #0ac40a;
+	transition-duration: 0.3s;
+}
+
+.progressContainer .showBefore {
+	font-weight: bold;
+	font-size: 18.72px;
+	transition-duration: 0.3s;
+}
+
+.progressContainer .showAfter {
+	font-weight: bold;
+	font-size: 0px;
+	transition-duration: 0.3s;
+}
+
+.progressContainer:hover .showBefore {
+	font-weight: bold;
+	color: white;
+	font-size: 0px;
+	transition-duration: 0.3s;
+}
+
+.progressContainer:hover .showAfter {
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	transition-duration: 0.3s;
+}
+
+.progressContainer:hover .progressSD {
+	width: 100%;
+}
+
+.progressContainer:hover .progressHD {
+	width: 100%;
 }
