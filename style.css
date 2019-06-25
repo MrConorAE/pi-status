@@ -179,3 +179,45 @@ span {
 .progressContainer:hover .progressHD {
 	width: 100%;
 }
+
+.detail {
+	background-color: #0091eb;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: white;
+	transition-duration: 0.3s;
+}
+
+.detail:hover {
+	background-color: #b9e4ff;
+	padding: 2px 10px;
+	border-radius: 100px;
+	color: #0091eb;
+	transition-duration: 0.3s;
+}
+
+.detailHover .showBefore {
+	font-weight: normal;
+	font-size: 18.72px;
+	transition-duration: 0.3s;
+}
+
+.detailHover .showAfter {
+	font-weight: normal;
+	font-size: 0px;
+	transition-duration: 0.3s;
+}
+
+.detailHover:hover .showBefore {
+	font-weight: normal;
+	color: white;
+	font-size: 0px;
+	transition-duration: 0.3s;
+}
+
+.detailHover:hover .showAfter {
+	font-weight: normal;
+	color: #0091eb;
+	font-size: 18.72px;
+	transition-duration: 0.3s;
+}
