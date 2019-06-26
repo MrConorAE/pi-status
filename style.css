@@ -236,3 +236,30 @@ span {
 	color: #0ac40a;
 	font-weight: bold;
 }
+
+#reload #reloadIcon {
+	transition-duration: 0.3s;
+	color: white;
+}
+
+#reload:hover #reloadIcon {
+	transform: rotate(180deg);
+	color: #0091eb;
+}
+
+.spinning {
+	animation-duration: 1s;
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	color: #0091eb;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(180deg);
+	}
+
+	to {
+		transform: rotate(540deg);
+	}
+}
