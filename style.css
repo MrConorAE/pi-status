@@ -83,6 +83,7 @@ button {
 	color: white;
 	transition-duration: 0.3s;
 	border: none;
+	width: 110px;
 }
 
 button:hover {
@@ -262,4 +263,10 @@ span {
 	to {
 		transform: rotate(540deg);
 	}
+}
+
+.loading {
+	width: auto;
+	color: #0091eb;
+	background-color: #b9e4ff;
 }
